@@ -1,0 +1,19 @@
+{
+  "fullName": "",
+  "country_of_residence": "",
+  "date_of_birth": "dd/mm/yyyy",
+  "nationality": "",
+  "gender": "",
+  "email": "@.com",
+  "id_number": "",
+  "id_expiry": "dd/mm/yyyy",
+  "onboarding_mode": "",
+  "payment_mode": "",
+  "ssic_code": "",
+  "ssoc_code": "",
+  "address_line": "",
+  "postal_code": "",
+  "phone": "",
+  "addresses": ["", ""],
+  "individual_doc": [{"file1":""}]
+}

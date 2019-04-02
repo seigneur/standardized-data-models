@@ -1,0 +1,152 @@
+
+{
+  "list_of_metadata": [
+    {
+      "key": "fullName",
+      "type": "string",
+    },
+    {
+      "key": "country_of_residence",
+      "type": "string",
+    },
+    {
+      "key": "date_of_birth",
+      "type": "string",
+    },
+    {
+      "key": "nationality",
+      "type": "string",
+    },
+    {
+      "key": "gender",
+      "type": "string",
+    },
+    {
+      "key": "email",
+      "type": "string",
+    },
+    {
+      "key": "id_number",
+      "type": "string",
+    },
+    {
+      "key": "id_expiry",
+      "type": "string",
+    },
+    {
+      "key": "onboarding_mode",
+      "type": "string",
+    },
+    {
+      "key": "payment_mode",
+      "type": "string",
+    },
+    {
+      "key": "ssic_code",
+      "type": "string",
+    },
+    {
+      "key": "ssoc_code",
+      "type": "string",
+    },
+    {
+      "key": "address_line",
+      "type": "string",
+    },
+    {
+      "key": "postal_code",
+      "type": "string",
+    },
+    {
+      "key": "phone",
+      "type": "string",
+    },
+    {
+      "key": "addresses",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+    },
+    {
+      "key": "individual_doc",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": [
+          {
+            "key": "type_doc",
+            "type": "string"
+          },
+          {
+            "key": "files",
+            "type": "Array<string | Blob>"
+          }
+        ]
+      },
+    },
+    {
+      "key": "selfie_with_id_document",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": [
+          {
+            "key": "type_doc",
+            "type": "string"
+          },
+          {
+            "key": "files",
+            "type": "Array<string | Blob>"
+          }
+        ]
+      },
+    },
+    {
+      "key": "company_name",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+    }
+  ],
+  "group_definitions": {
+    "basic": {
+      "metadata_list": [],
+      "optional": [],
+      "display": [],
+      "template_name": "",
+      "profile_registration": false,
+      "context": "",
+      "security_classification" : 1
+    },
+    "detailed": {
+      "metadata_list": [],
+      "optional": [],
+      "display": [],
+      "template_name": "",
+      "profile_registration": false,
+      "context": "",
+      "security_classification" : 2
+    },
+    "financial": {
+      "metadata_list": [],
+      "optional": [],
+      "display": [],
+      "template_name": "",
+      "profile_registration": false,
+      "context": "",
+      "security_classification" : 3
+    },
+    "financialConfidential": {
+      "metadata_list": [],
+      "optional": [],
+      "display": [],
+      "template_name": "",
+      "profile_registration": false,
+      "context": "",
+      "security_classification" : 2
+    }
+  },
+  "version": "" 
+}
